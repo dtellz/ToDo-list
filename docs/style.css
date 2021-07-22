@@ -107,6 +107,24 @@
 }
 
 /* TESSSTTT*/
+@media only screen and (max-width: 600px) {
+    .main_container{
+        display: grid;
+        height: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-columns: auto;
+        grid-template-areas: 
+            "header header"
+            "nav nav"
+            "content content"
+            "footer footer";
+        
+        min-height: 100vh;
+    }
+    .footer{
+        display:none;
+    }
+  }
 
 
 
