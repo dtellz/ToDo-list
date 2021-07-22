@@ -107,6 +107,10 @@
 }
 
 /* TESSSTTT*/
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
 @media only screen and (max-width: 600px) {
     .main_container{
         display: grid;
