@@ -105,7 +105,7 @@ function createTaskCard(task) {
 }
 function setHeaderContent() {
     const pageLogo = document.createElement('img');
-    pageLogo.src = 'https://1771774901.rsc.cdn77.org/wa-data/public/site/themes/pl2site/img/pl2macos11.png';
+    pageLogo.src = 'https://zenkit.com/wp-content/uploads/2020/10/Zenkit_Web_ToDo_1_Home.png';
     pageLogo.classList.add('logo');
 
     const header = document.getElementById('main_page_header');
