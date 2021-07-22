@@ -75,9 +75,9 @@ function createTaskCard(task) {
     cardImg.id = 'task_img';
     cardImg.classList.add('task-img');
     if (task.isFinished) {
-        cardImg.src = 'assets/img/done-task.png';
+        cardImg.src = 'https://img.icons8.com/fluent/240/microsoft-todo-2019.png';
     } else {
-        cardImg.src = 'assets/img/pending_task.png';
+        cardImg.src = 'https://www.shareicon.net/data/128x128/2016/10/11/842375_interface_512x512.png';
     }
     const taskTitle = document.createElement('h3');
     taskTitle.textContent = task.name;
@@ -105,7 +105,7 @@ function createTaskCard(task) {
 }
 function setHeaderContent() {
     const pageLogo = document.createElement('img');
-    pageLogo.src = 'assets/img/logo-todo-list.png';
+    pageLogo.src = 'https://1771774901.rsc.cdn77.org/wa-data/public/site/themes/pl2site/img/pl2macos11.png';
     pageLogo.classList.add('logo');
 
     const header = document.getElementById('main_page_header');
@@ -280,27 +280,4 @@ if (localStorage.getItem('tasks')) {
     setTasksContent();
 }
 //setTasksContent();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
